@@ -1,0 +1,28 @@
+/* MEDIAQUERIES CV */
+
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+	.container {
+		width: 95%;
+		height: auto;
+	}
+	h2 {
+		font-size: 18px;
+	}
+}
+@media screen and (max-width: 600px) {
+	.main {
+		flex-direction: column;
+	}
+	.left, .right {
+		flex: none;
+		width: 100%;
+	}
+	.container {
+		width: 95%;
+		height: auto;
+	}
+	h2 {
+		font-size: 15px;
+	}
+}
