@@ -45,7 +45,7 @@
   }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 640px) {
   #contact {
     height: 40vh;
   }
@@ -96,4 +96,18 @@
   .text-container {
     text-align: justify;
   }
+}
+
+@media screen and (max-width: 500px) {
+
+  .contact-info-container p,
+  .nav-links li a {
+    font-size: 0.9rem;
+  }
+  .logo {
+    font-size: 1.1rem;
+  }
+  .article-container-2 {
+    justify-content: space-between;
+}
 }
