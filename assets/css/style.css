@@ -26,11 +26,15 @@ p {
 }
 
 section {
-  padding-top: 4vh;
+  padding-top: 20vh;
   height: 96vh;
   margin: 0 10rem;
   box-sizing: border-box;
   min-height: fit-content;
+}
+
+#profile {
+  padding-top: 4vh;
 }
 
 .section-container {
@@ -91,11 +95,3 @@ section {
 .btn-container {
   gap: 1rem;
 }
-
-/* FOOTER SECTION */
-
-footer {
-  height: 26vh;
-  margin: 0 1rem;
-}
-

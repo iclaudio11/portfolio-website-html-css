@@ -1,7 +1,5 @@
 /* MEDIAQUERIES */
 
-
-
 @media screen and (max-width: 1400px) {
   #profile {
     height: 83vh;
@@ -11,7 +9,6 @@
     flex-wrap: wrap;
   }
   
-  #contact,
   #projects {
     height: fit-content;
   }
@@ -49,8 +46,7 @@
 }
 
 @media screen and (max-width: 600px) {
-  #contact,
-  footer {
+  #contact {
     height: 40vh;
   }
   #profile {
@@ -60,8 +56,8 @@
   article {
     font-size: 1rem;
   }
-  footer nav {
-    height: fit-content;
+  nav {
+    height: 10vh;
     margin-bottom: 2rem;
   }
   .about-containers,

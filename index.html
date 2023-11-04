@@ -21,7 +21,9 @@
  </head>
  <body>
     <nav class="nav-sticky">
-      <div class="logo">Claudio Iaculo</div>
+      <div class="logo">
+        <a class="a-nav" href="">Claudio Iaculo</a>
+      </div>
       <div>
         <ul class="nav-links">
           <li><a class="a-nav" href="#about">About</a></li>
@@ -251,36 +253,20 @@
     <section id="contact">
       <p class="section__text__p1">Get in Touch</p>
       <h2 class="title">Contact Me</h2>
-      <div class="contact-info-upper-container">
-        <div class="contact-info-container">
-          <img
-            src="./assets/images/email.png"
-            alt="Email icon"
-            class="icon contact-icon email-icon"
-          />
-          <p><a class="a-nav" href="mailto:claudio.iaculo.gm@gmail.com">claudio.iaculo.gm@gmail.com</a></p>
-        </div>
-        <div class="contact-info-container">
-          <img
-            src="./assets/images/linkedin.png"
-            alt="LinkedIn icon"
-            class="icon contact-icon"
-          />
-          <p><a class="a-nav" href="https://www.linkedin.com/in/claudio-iaculo" target="_blank" rel="noopener">LinkedIn</a></p>
-        </div>
-      </div>
+      <section id="contact-form">
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" required>
+    
+            <label for="email">Email:</label>
+            <input type="email" id="email" required>
+    
+            <label for="message">Message:</label>
+            <textarea id="message" required></textarea>
+    
+            <button type="submit">Send</button>
+        </form>
+      </section>
     </section>
-    <footer>
-      <nav>
-        <div class="nav-links-container">
-          <ul class="nav-links">
-            <li><a class="a-nav" href="#about">About</a></li>
-            <li><a class="a-nav" href="#skills">Skills</a></li>
-            <li><a class="a-nav" href="#projects">Projects</a></li>
-            <li><a class="a-nav" href="#contact">Contact</a></li>
-          </ul>
-        </div>
-      </nav>
-    </footer>
   </body>
 </html>
