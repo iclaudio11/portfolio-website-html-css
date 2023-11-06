@@ -45,6 +45,16 @@
   }
 }
 
+@media screen and (max-width: 800px) {
+  .contact-info-container p,
+  .nav-links li a {
+    font-size: 1.3rem;
+  }
+  .logo {
+    font-size: 1.7rem;
+  }
+}
+
 @media screen and (max-width: 660px) {
   #contact {
     height: 40vh;
@@ -79,7 +89,7 @@
     font-size: 1.5rem;
   }
   .nav-links {
-    gap: 0.5rem;
+    gap: 0.8rem;
     text-align: center;
   }
   .section__pic-container {
@@ -104,6 +114,12 @@
   .nav-links li a {
     font-size: 0.9rem;
   }
+
+  .nav-links {
+    gap: 0.8rem;
+    text-align: center;
+  }
+
   .logo {
     font-size: 1.1rem;
   }
