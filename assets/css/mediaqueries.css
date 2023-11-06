@@ -90,7 +90,6 @@
   }
   .nav-links {
     gap: 0.8rem;
-    text-align: center;
   }
   .section__pic-container {
     width: auto;
@@ -117,11 +116,10 @@
 
   .nav-links {
     gap: 0.8rem;
-    text-align: center;
   }
 
   .logo {
-    font-size: 1.1rem;
+    font-size: 1.5rem;
   }
   .article-container-2 {
     justify-content: space-between;
