@@ -1,4 +1,4 @@
-# html-css-project
+# portfolio-website-html-css
 
 This project represents my personal website, a portfolio that showcases my work, skills, and curriculum vitae. The site has been developed using HTML and CSS to create a simple and attractive interface to present information about me and my work. You can navigate through the different sections to learn more about me, my skills, my projects, and how to get in touch with me.
 
